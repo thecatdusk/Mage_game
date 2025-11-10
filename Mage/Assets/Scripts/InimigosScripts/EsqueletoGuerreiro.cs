@@ -40,6 +40,8 @@ public class EsqueletoGuerreiro : MonoBehaviour
     public GameObject pocaoMana;
     public float chanceDrop = 10;
 
+    public Salas sala;
+
     void Start()
     {
         vidaAtual = vidaMax;
@@ -48,6 +50,12 @@ public class EsqueletoGuerreiro : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (sala.ativada)
+        {
+            AtivarInimigo();
+        }
+        
+
         VerificarDistancia();
         switch (estado)
         {
@@ -81,7 +89,11 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que ativa o inimigo
     public void AtivarInimigo()
     {
-        estado = EstadoInimigo.Perseguindo;
+        if (estado == EstadoInimigo.Desativado)
+        {
+            estado = EstadoInimigo.Perseguindo;
+        }
+        
     }
 
     // Método que define o comportamento do inimigo caso o estado dele seja "Perseguindo"

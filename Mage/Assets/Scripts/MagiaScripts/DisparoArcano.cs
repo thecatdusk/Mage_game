@@ -47,7 +47,8 @@ public class DisparoArcano : MonoBehaviour
         }
         else if (hit.CompareTag("Esqueleto Arqueiro"))
         {
-            
+            hit.GetComponent<EsqueletoArqueiro>().TomarHit(dano);
+            jogador.RecuperarMana(1f);
         }
         Destroy(gameObject);
     }

@@ -40,15 +40,24 @@ public class EsqueletoArqueiro : MonoBehaviour
     public float chanceDrop = 10;
 
     // Variáveis da Flecha
+    public GameObject flecha;
+    public Transform miraArqueiro;
+
+    public Salas sala;
 
     void Start()
     {
         vidaAtual = vidaMax;
-        //AtivarInimigo();
+        AtivarInimigo();
     }
 
     void FixedUpdate()
     {
+        if (sala.ativada)
+        {
+            AtivarInimigo();
+        }
+
         VerificarDistancia();
         switch (estado)
         {
@@ -82,11 +91,14 @@ public class EsqueletoArqueiro : MonoBehaviour
     // Método que ativa o inimigo
     public void AtivarInimigo()
     {
-        estado = EstadoInimigo.Perseguindo;
+        if (estado == EstadoInimigo.Desativado)
+        {
+            estado = EstadoInimigo.Perseguindo;
+        }
     }
 
-    // Método que define o comportamento do inimigo caso o estado dele seja "Perseguindo"
-    void Perseguindo()
+        // Método que define o comportamento do inimigo caso o estado dele seja "Perseguindo"
+        void Perseguindo()
     {
 
         if (distanciaJogador > distanciaAtaque)
@@ -105,7 +117,28 @@ public class EsqueletoArqueiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Atacando"
     void Atacando()
     {
-        
+        gameObject.transform.LookAt(jogador.transform);
+
+        if (ataqueTimer > 0)
+        {
+            nav.isStopped = true;
+            ataqueTimer -= Time.deltaTime;
+        }
+        else
+        {
+            GameObject flechaInstanciado = Instantiate(flecha, miraArqueiro.position, miraArqueiro.rotation);
+
+            if (distanciaJogador < distanciaAtaque)
+            {
+
+                ataqueTimer = ataqueDelay;
+                estado = EstadoInimigo.Atacando;
+            }
+            else
+            {
+                estado = EstadoInimigo.Perseguindo;
+            }
+        }
     }
 
     // Método que define o comportamento do inimigo caso o estado dele seja "Ferido"

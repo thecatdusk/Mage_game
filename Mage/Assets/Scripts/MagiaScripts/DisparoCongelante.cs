@@ -41,7 +41,8 @@ public class DisparoCongelante : MonoBehaviour
         }
         else if (hit.CompareTag("Esqueleto Arqueiro"))
         {
-
+            hit.GetComponent<EsqueletoArqueiro>().TomarHit(dano);
+            hit.GetComponent<EsqueletoArqueiro>().FicarCongelado(tempoCongelamento);
         }
         Destroy(gameObject);
     }

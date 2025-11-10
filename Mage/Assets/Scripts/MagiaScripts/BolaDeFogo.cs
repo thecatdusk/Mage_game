@@ -41,15 +41,17 @@ public class BolaDeFogo : MonoBehaviour
         {
             if (col.CompareTag("Player")) 
             {
-                Debug.Log("Bola de fogo acertou o jogador");
+               
                 col.GetComponent<Player>().TomarHit();
+
             }else if(col.CompareTag("Esqueleto Guerreiro"))
             {
-                Debug.Log("Bola de fogo acertou o esqueleto guerreiro");
+               
                 col.GetComponent<EsqueletoGuerreiro>().TomarHit(dano);
+
             }else if(col.CompareTag("Esqueleto Arqueiro"))
             {
-
+                col.GetComponent<EsqueletoArqueiro>().TomarHit(dano);
             }
         }
 
