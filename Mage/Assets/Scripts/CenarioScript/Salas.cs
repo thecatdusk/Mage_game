@@ -6,12 +6,15 @@ public class Salas : MonoBehaviour
     public bool concluida = false;
     public int contadorInimigo = 1;
     public BoxCollider colisor;
+    public Player player;
+
 
     private void OnTriggerEnter(Collider hit)
     {
         if (hit.CompareTag("Player"))
         {
             ativada = true;
+            player = hit.GetComponent<Player>();
         }
         
     }

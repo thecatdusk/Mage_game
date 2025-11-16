@@ -93,6 +93,7 @@ public class EsqueletoArqueiro : MonoBehaviour
     {
         if (estado == EstadoInimigo.Desativado)
         {
+            jogador = sala.player;
             estado = EstadoInimigo.Perseguindo;
         }
     }
