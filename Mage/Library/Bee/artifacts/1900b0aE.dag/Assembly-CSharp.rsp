@@ -426,6 +426,7 @@
 "Assets/Scripts/MagiaScripts/BolaDeFogo.cs"
 "Assets/Scripts/MagiaScripts/DisparoArcano.cs"
 "Assets/Scripts/MagiaScripts/DisparoCongelante.cs"
+"Assets/Scripts/MeshCombine/MeshCombiner.cs"
 "Assets/Scripts/PlayerScripts/ControleCamera.cs"
 "Assets/Scripts/PlayerScripts/Player.cs"
 "Assets/Scripts/ProjeteisScript/Flecha.cs"
