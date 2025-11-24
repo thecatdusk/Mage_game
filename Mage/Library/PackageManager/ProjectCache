@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/mathe/Mage/Packages/manifest.json
+    m_FilePath: M:/Downloads/mage/Mage_game/Mage/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638965122129863999
-    m_Hash: 2814399497
+      ticks: 638989351503482247
+    m_Hash: 2796663711
   m_LockFileStatus:
-    m_FilePath: C:/Users/mathe/Mage/Packages/packages-lock.json
+    m_FilePath: M:/Downloads/mage/Mage_game/Mage/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638965122130086341
-    m_Hash: 686939199
+      ticks: 638989351503503163
+    m_Hash: 144411762
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/mathe/Mage/Packages
+m_ProjectPath: M:/Downloads/mage/Mage_game/Mage/Packages
 m_EditorVersion: 6000.0.58f2 (92dee566b325)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.10.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.0
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -126,9 +126,13 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
     compatible:
     - 2.9.3
     - 2.10.0
+    - 2.10.1
+    - 2.10.2
     recommended: 2.9.3
     deprecated: []
   dependencies: []
@@ -216,7 +220,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -326,7 +330,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.2
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -399,9 +403,11 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.2
     - 1.15.0
+    - 1.16.0
     compatible:
     - 1.14.2
     - 1.15.0
+    - 1.16.0
     recommended: 1.14.2
     deprecated: []
   dependencies:
@@ -483,7 +489,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -576,7 +582,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -773,7 +779,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.ugui@aa507f3228f0
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.ugui@aa507f3228f0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -868,7 +874,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -918,10 +924,12 @@ m_ResolvedPackages:
     - 1.9.6
     - 1.9.7
     - 1.9.8
+    - 1.9.9
     compatible:
     - 1.9.7
     - 1.9.8
-    recommended: 1.9.8
+    - 1.9.9
+    recommended: 1.9.9
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -3727,7 +3735,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.23
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3844,7 +3852,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.37
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.ide.rider@0baf0f91edc0
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.ide.rider@0baf0f91edc0
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3977,7 +3985,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4065,7 +4073,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4161,7 +4169,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.test-framework@1f954279c37e
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.test-framework@1f954279c37e
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4250,7 +4258,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4384,7 +4392,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4472,7 +4480,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\mathe\Mage\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: M:\Downloads\mage\Mage_game\Mage\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
