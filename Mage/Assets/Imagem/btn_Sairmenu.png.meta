@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 230b4bb82ef90df40ad03cf349d1d002
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5621512220839383292
+    second: btn_Sairmenu_0
+  - first:
+      213: -395804051001653264
+    second: btn_Sairmenu_1
+  - first:
+      213: -8483427104866690957
+    second: btn_Sairmenu_2
+  - first:
+      213: -9190287321000151900
+    second: btn_Sairmenu_3
+  - first:
+      213: 420158481895112069
+    second: btn_Sairmenu_4
+  - first:
+      213: 8589319777322783001
+    second: btn_Sairmenu_5
+  - first:
+      213: 7204446422424178086
+    second: btn_Sairmenu_6
+  - first:
+      213: 2023256170103368506
+    second: btn_Sairmenu_7
+  - first:
+      213: -1128224694010575367
+    second: btn_Sairmenu_8
+  - first:
+      213: 6114550072688291241
+    second: btn_Sairmenu_9
+  - first:
+      213: 4607858726511154658
+    second: btn_Sairmenu_10
+  - first:
+      213: -8568986433282602497
+    second: btn_Sairmenu_11
+  - first:
+      213: -6886435141687765495
+    second: btn_Sairmenu_12
+  - first:
+      213: -3990534671025356070
+    second: btn_Sairmenu_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: btn_Sairmenu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 135
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf016afa49f930e40800000000000000
+      internalID: 5621512220839383292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 205
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7c26b0052d18af0800000000000000
+      internalID: -395804051001653264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 49
+        width: 163
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3781088ceffc44a80800000000000000
+      internalID: -8483427104866690957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 49
+        width: 32
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a47200bf5a857080800000000000000
+      internalID: -9190287321000151900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 49
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58db9b6c9e3b4d500800000000000000
+      internalID: 420158481895112069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_5
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 137
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911df8d44d4633770800000000000000
+      internalID: 8589319777322783001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_6
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 49
+        width: 163
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad4de3b9d55bf360800000000000000
+      internalID: 7204446422424178086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_7
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 49
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3be0ac54cc041c10800000000000000
+      internalID: 2023256170103368506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_8
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 49
+        width: 163
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f50dae4e9db750f0800000000000000
+      internalID: -1128224694010575367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_9
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 49
+        width: 137
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adace315ee3bd450800000000000000
+      internalID: 6114550072688291241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_10
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 49
+        width: 189
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e591e8291762ff30800000000000000
+      internalID: 4607858726511154658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_11
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 49
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff98c074d38d41980800000000000000
+      internalID: -8568986433282602497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_12
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 49
+        width: 137
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9061fea79b77e60a0800000000000000
+      internalID: -6886435141687765495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btn_Sairmenu_13
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 49
+        width: 135
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad247a50cd5ce98c0800000000000000
+      internalID: -3990534671025356070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      btn_Sairmenu_0: 5621512220839383292
+      btn_Sairmenu_1: -395804051001653264
+      btn_Sairmenu_10: 4607858726511154658
+      btn_Sairmenu_11: -8568986433282602497
+      btn_Sairmenu_12: -6886435141687765495
+      btn_Sairmenu_13: -3990534671025356070
+      btn_Sairmenu_2: -8483427104866690957
+      btn_Sairmenu_3: -9190287321000151900
+      btn_Sairmenu_4: 420158481895112069
+      btn_Sairmenu_5: 8589319777322783001
+      btn_Sairmenu_6: 7204446422424178086
+      btn_Sairmenu_7: 2023256170103368506
+      btn_Sairmenu_8: -1128224694010575367
+      btn_Sairmenu_9: 6114550072688291241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
