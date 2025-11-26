@@ -40,12 +40,19 @@ public class EsqueletoGuerreiro : MonoBehaviour
     public GameObject pocaoMana;
     public float chanceDrop = 10;
 
+    public Animator animator;
+
     public Salas sala;
 
     void Start()
     {
         vidaAtual = vidaMax;
-        //AtivarInimigo();
+        animator.SetBool("Idle", true);
+        animator.SetBool("Atacando", false);
+        animator.SetBool("Morrendo", false);
+        animator.SetBool("Perseguindo", false);
+        animator.SetBool("Hit", false);
+        animator.SetBool("Congelado", false);
     }
 
     void FixedUpdate()
@@ -83,7 +90,10 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que verifica a distancia entre o Gerreiro Esqueleto e o Jogador
     void VerificarDistancia()
     {
-        distanciaJogador = Vector3.Distance(jogador.transform.position, transform.position);
+        if (jogador != null)
+        {
+            distanciaJogador = Vector3.Distance(jogador.transform.position, transform.position);
+        }
     }
 
     // Método que ativa o inimigo
@@ -100,7 +110,13 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Perseguindo"
     void Perseguindo()
     {
-        
+        animator.SetBool("Idle", false);
+        animator.SetBool("Atacando", false);
+        animator.SetBool("Morrendo", false);
+        animator.SetBool("Perseguindo", true);
+        animator.SetBool("Hit", false);
+        animator.SetBool("Congelado", false);
+
         if (distanciaJogador > distanciaAtaque) {
             nav.isStopped = false;
             nav.SetDestination(jogador.transform.position);
@@ -116,7 +132,14 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Atacando"
     void Atacando()
     {
-        if(ataqueTimer > 0)
+        animator.SetBool("Idle", false);
+        animator.SetBool("Atacando", true);
+        animator.SetBool("Morrendo", false);
+        animator.SetBool("Perseguindo", false);
+        animator.SetBool("Hit", false);
+        animator.SetBool("Congelado", false);
+
+        if (ataqueTimer > 0)
         {
             nav.isStopped = true;
             ataqueTimer -= Time.deltaTime;
@@ -139,6 +162,13 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Ferido"
     void Ferido()
     {
+        animator.SetBool("Idle", false);
+        animator.SetBool("Atacando", false);
+        animator.SetBool("Morrendo", false);
+        animator.SetBool("Perseguindo", false);
+        animator.SetBool("Hit", true);
+        animator.SetBool("Congelado", false);
+
         if (feridoTimer > 0)
         {
             nav.isStopped = true;
@@ -161,7 +191,14 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Congelado"
     void Congelado()
     {
-        if(congeladoTimer > 0)
+        animator.SetBool("Idle", false);
+        animator.SetBool("Atacando", false);
+        animator.SetBool("Morrendo", false);
+        animator.SetBool("Perseguindo", false);
+        animator.SetBool("Hit", false);
+        animator.SetBool("Congelado", true);
+
+        if (congeladoTimer > 0)
         {
             nav.isStopped = true;
             congeladoTimer -= Time.deltaTime;
@@ -183,7 +220,14 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Morrendo"
     void Morrendo()
     {
-        if(morrendoTimer > 0)
+        animator.SetBool("Idle", false);
+        animator.SetBool("Atacando", false);
+        animator.SetBool("Morrendo", true);
+        animator.SetBool("Perseguindo", false);
+        animator.SetBool("Hit", false);
+        animator.SetBool("Congelado", false);
+
+        if (morrendoTimer > 0)
         {
             nav.isStopped = true;
             morrendoTimer -= Time.deltaTime;
