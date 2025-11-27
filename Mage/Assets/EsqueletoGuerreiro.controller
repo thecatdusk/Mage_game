@@ -39,6 +39,46 @@ AnimatorStateMachine:
   m_ExitPosition: {x: -70, y: 100, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -941346411297419741}
+--- !u!1101 &-2327904127267501379
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: Atacando
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Idle
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Morrendo
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Perseguindo
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Congelado
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Hit
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8552728207459451731}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.2500001
+  m_TransitionOffset: 0.02277118
+  m_ExitTime: 0.012680343
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &-1205424810944637699
 AnimatorState:
   serializedVersion: 6
@@ -138,9 +178,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.87288135
+  m_TransitionDuration: 0.24999988
+  m_TransitionOffset: 0.023721786
+  m_ExitTime: 0.0004078357
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -264,9 +304,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.7916667
+  m_TransitionDuration: 0.24999993
+  m_TransitionOffset: 0.012679584
+  m_ExitTime: 0.005539763
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -366,9 +406,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.1
-  m_TransitionOffset: 0.010135455
-  m_ExitTime: 0.012131084
+  m_TransitionDuration: 0.1266711
+  m_TransitionOffset: 0.6306387
+  m_ExitTime: 0.2221342
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 2
@@ -425,7 +465,6 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 5712685778759990501}
   - {fileID: -1081216873856930078}
   - {fileID: 3292166679239945595}
   - {fileID: 537324135244502498}
@@ -444,46 +483,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &5712685778759990501
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Morre '
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: Atacando
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Idle
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: Morrendo
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Perseguindo
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Congelado
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Hit
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -1205424810944637699}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.09999995
-  m_TransitionOffset: 0.47693688
-  m_ExitTime: 0.000000025793938
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 2
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1101 &6069582710752159125
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -556,9 +555,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.25000015
   m_TransitionOffset: 0
-  m_ExitTime: 0.77272725
+  m_ExitTime: 0
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -600,7 +599,8 @@ AnimatorState:
   m_Name: GuerreiroAtacando
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions: []
+  m_Transitions:
+  - {fileID: -2327904127267501379}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0

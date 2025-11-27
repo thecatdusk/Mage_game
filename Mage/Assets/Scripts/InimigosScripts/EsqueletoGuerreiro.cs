@@ -9,20 +9,20 @@ public class EsqueletoGuerreiro : MonoBehaviour
     private EstadoInimigo estado = EstadoInimigo.Desativado;
 
     // Variáveis de Vida
-    public float vidaMax = 30f;
+    public float vidaMax = 20f;
     private float vidaAtual;
 
     // Variáveis de Ataque
-    public float ataqueDelay = 1f;
+    public float ataqueDelay = 1.033f;
     private float ataqueTimer = 0f;
-    public float distanciaAtaque = 3f;
+    public float distanciaAtaque = 3.5f;
 
     // Variáveis de Ferido
     public float feridoDelay = 0.3f;
     private float feridoTimer = 0f;
 
     // Variáveis de Morrendo
-    public float morrendoDelay = 0.3f;
+    public float morrendoDelay = 4f;
     private float morrendoTimer = 0f;
 
     // Variável de Status
@@ -39,6 +39,8 @@ public class EsqueletoGuerreiro : MonoBehaviour
     public GameObject pocaoVida;
     public GameObject pocaoMana;
     public float chanceDrop = 10;
+
+    public CapsuleCollider colisor;
 
     public Animator animator;
 
@@ -146,8 +148,10 @@ public class EsqueletoGuerreiro : MonoBehaviour
         }
         else
         {
-            if(distanciaJogador < distanciaAtaque)
+
+            if (distanciaJogador < distanciaAtaque)
             {
+                
                 jogador.TomarHit();
                 ataqueTimer = ataqueDelay;
                 estado = EstadoInimigo.Atacando;
@@ -220,6 +224,7 @@ public class EsqueletoGuerreiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Morrendo"
     void Morrendo()
     {
+        Destroy(colisor);
         animator.SetBool("Idle", false);
         animator.SetBool("Atacando", false);
         animator.SetBool("Morrendo", true);

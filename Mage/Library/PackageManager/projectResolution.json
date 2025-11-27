@@ -29,6 +29,15 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.feature.2d@2.0.1": {
+      "name": "com.unity.feature.2d",
+      "displayName": "2D",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.feature.2d@dd1ea8910f12",
+      "fingerprint": "dd1ea8910f12f021c166e8d0d78de44f1390ff6b",
+      "version": "2.0.1",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.feature.development@1.0.2": {
       "name": "com.unity.feature.development",
       "displayName": "Engineering",
@@ -420,6 +429,86 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.2d.animation@12.0.3": {
+      "name": "com.unity.2d.animation",
+      "displayName": "2D Animation",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.animation@fd6eeea117b7",
+      "fingerprint": "fd6eeea117b7165f48ae1442d07c9a10c4d757f3",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "12.0.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.pixel-perfect@5.1.1": {
+      "name": "com.unity.2d.pixel-perfect",
+      "displayName": "2D Pixel Perfect",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.pixel-perfect@09d99455b901",
+      "fingerprint": "09d99455b9018d7a152bb766d42b2569236a7b4a",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "5.1.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.psdimporter@11.0.2": {
+      "name": "com.unity.2d.psdimporter",
+      "displayName": "2D PSD Importer",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.psdimporter@ee412f80a276",
+      "fingerprint": "ee412f80a276d6ee7acd681b5661a959561261be",
+      "editorCompatibility": "6000.2.0a10",
+      "version": "11.0.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.sprite@28296e5d02fb",
+      "fingerprint": "28296e5d02fbf3ac81cc11ab1b39667f16a80778",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.spriteshape@12.0.2": {
+      "name": "com.unity.2d.spriteshape",
+      "displayName": "2D SpriteShape",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.spriteshape@f4325e58176b",
+      "fingerprint": "f4325e58176b754d8b01f2936fa8cc95e464f2c1",
+      "editorCompatibility": "6000.2.0a10",
+      "version": "12.0.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.tilemap@1.0.0": {
+      "name": "com.unity.2d.tilemap",
+      "displayName": "2D Tilemap Editor",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.tilemap@089d78c497f7",
+      "fingerprint": "089d78c497f71ceb4da57790ae3ffeb30b691411",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.tilemap.extras@5.0.2": {
+      "name": "com.unity.2d.tilemap.extras",
+      "displayName": "2D Tilemap Extras",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.tilemap.extras@20479734ca02",
+      "fingerprint": "20479734ca029ad697e114aa9f7a8a1a6e79e1f4",
+      "editorCompatibility": "6000.2.0a1",
+      "version": "5.0.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.aseprite@2.0.2": {
+      "name": "com.unity.2d.aseprite",
+      "displayName": "2D Aseprite Importer",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.aseprite@dca42b450aa1",
+      "fingerprint": "dca42b450aa1933467340cfd7bce324ddf7b06b2",
+      "editorCompatibility": "6000.2.0a10",
+      "version": "2.0.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.settings-manager@2.1.0": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
@@ -438,6 +527,66 @@
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.common@11.0.1": {
+      "name": "com.unity.2d.common",
+      "displayName": "2D Common",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.2d.common@dd402daace1b",
+      "fingerprint": "dd402daace1b7dbeb70cb9e7ae044cc4b10f989a",
+      "editorCompatibility": "6000.2.0a9",
+      "version": "11.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "displayName": "Mathematics",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.mathematics@8017b507cc74",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.collections@2.5.7": {
+      "name": "com.unity.collections",
+      "displayName": "Collections",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.collections@d49facba0036",
+      "fingerprint": "d49facba0036aa0e1508296262f9d93b44d1ab3b",
+      "editorCompatibility": "2022.3.20f1",
+      "version": "2.5.7",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.burst@1.8.23": {
+      "name": "com.unity.burst",
+      "displayName": "Burst",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.burst@6aff1dd08a0c",
+      "fingerprint": "6aff1dd08a0c2f92ddb7f56ec033a5cb88967056",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.23",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.nuget.mono-cecil@1.11.5": {
+      "name": "com.unity.nuget.mono-cecil",
+      "displayName": "Mono Cecil",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.nuget.mono-cecil@d78732e851eb",
+      "fingerprint": "d78732e851eb42273c8e4d97993d3a94b207e570",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.11.5",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.test-framework.performance@3.1.0": {
+      "name": "com.unity.test-framework.performance",
+      "displayName": "Performance testing API",
+      "resolvedPath": "C:\\Users\\Scheila\\Downloads\\Mage_game-matheus\\Mage_game-matheus\\Mage\\Library\\PackageCache\\com.unity.test-framework.performance@92d1d09a72ed",
+      "fingerprint": "92d1d09a72ed696fa23fd76c675b29d211664b50",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "3.1.0",
+      "source": "registry",
       "testable": false
     }
   }

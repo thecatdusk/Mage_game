@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: d0d91f741ddf29641a0f849d14269de4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8534125183183292042
+    second: lbl_Castelo Arruinado_0
+  - first:
+      213: 8070404613710759867
+    second: lbl_Castelo Arruinado_1
+  - first:
+      213: -6057550741912201692
+    second: lbl_Castelo Arruinado_2
+  - first:
+      213: 2408608175487165492
+    second: lbl_Castelo Arruinado_3
+  - first:
+      213: 7722597923757418877
+    second: lbl_Castelo Arruinado_4
+  - first:
+      213: 3870643863297449536
+    second: lbl_Castelo Arruinado_5
+  - first:
+      213: -9001286953594833846
+    second: lbl_Castelo Arruinado_6
+  - first:
+      213: -5451492741234205561
+    second: lbl_Castelo Arruinado_7
+  - first:
+      213: -1565991930228985524
+    second: lbl_Castelo Arruinado_8
+  - first:
+      213: 8692420357376715196
+    second: lbl_Castelo Arruinado_9
+  - first:
+      213: 6753675622513062743
+    second: lbl_Castelo Arruinado_10
+  - first:
+      213: 556099575752135976
+    second: lbl_Castelo Arruinado_11
+  - first:
+      213: 4886899851625317587
+    second: lbl_Castelo Arruinado_12
+  - first:
+      213: 3046509029284956076
+    second: lbl_Castelo Arruinado_13
+  - first:
+      213: -3199385510065655390
+    second: lbl_Castelo Arruinado_14
+  - first:
+      213: -7924031527809830851
+    second: lbl_Castelo Arruinado_15
+  - first:
+      213: -5141263751395306881
+    second: lbl_Castelo Arruinado_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679f4a39c52b09980800000000000000
+      internalID: -8534125183183292042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_1
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 184
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb747e1cc36dfff60800000000000000
+      internalID: 8070404613710759867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_2
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 0
+        width: 148
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4265b6bc1b14feba0800000000000000
+      internalID: -6057550741912201692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_3
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 0
+        width: 473
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434a30fcf581d6120800000000000000
+      internalID: 2408608175487165492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_4
+      rect:
+        serializedVersion: 2
+        x: 3763
+        y: 361
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79eab445ed2c2b60800000000000000
+      internalID: 7722597923757418877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_5
+      rect:
+        serializedVersion: 2
+        x: 4596
+        y: 0
+        width: 256
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ed3eb061a47b530800000000000000
+      internalID: 3870643863297449536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 292
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a443f91e431051380800000000000000
+      internalID: -9001286953594833846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 0
+        width: 256
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c5d1f2c386854b0800000000000000
+      internalID: -5451492741234205561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_8
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 0
+        width: 257
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41b29de2aa744ae0800000000000000
+      internalID: -1565991930228985524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_9
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 0
+        width: 292
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb920d7b24ea1a870800000000000000
+      internalID: 8692420357376715196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_10
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 0
+        width: 256
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7533b183230e9bd50800000000000000
+      internalID: 6753675622513062743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_11
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 0
+        width: 257
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82593782e99a7b700800000000000000
+      internalID: 556099575752135976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_12
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 0
+        width: 365
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4490de581c1d340800000000000000
+      internalID: 4886899851625317587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_13
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 0
+        width: 147
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7cc8f22df574a20800000000000000
+      internalID: 3046509029284956076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_14
+      rect:
+        serializedVersion: 2
+        x: 3908
+        y: 0
+        width: 328
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1310564df7993d0800000000000000
+      internalID: -3199385510065655390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_15
+      rect:
+        serializedVersion: 2
+        x: 4270
+        y: 0
+        width: 292
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3036eb0f4f280290800000000000000
+      internalID: -7924031527809830851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lbl_Castelo Arruinado_16
+      rect:
+        serializedVersion: 2
+        x: 4885
+        y: 0
+        width: 292
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f729d719bdf86a8b0800000000000000
+      internalID: -5141263751395306881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lbl_Castelo Arruinado_0: -8534125183183292042
+      lbl_Castelo Arruinado_1: 8070404613710759867
+      lbl_Castelo Arruinado_10: 6753675622513062743
+      lbl_Castelo Arruinado_11: 556099575752135976
+      lbl_Castelo Arruinado_12: 4886899851625317587
+      lbl_Castelo Arruinado_13: 3046509029284956076
+      lbl_Castelo Arruinado_14: -3199385510065655390
+      lbl_Castelo Arruinado_15: -7924031527809830851
+      lbl_Castelo Arruinado_16: -5141263751395306881
+      lbl_Castelo Arruinado_2: -6057550741912201692
+      lbl_Castelo Arruinado_3: 2408608175487165492
+      lbl_Castelo Arruinado_4: 7722597923757418877
+      lbl_Castelo Arruinado_5: 3870643863297449536
+      lbl_Castelo Arruinado_6: -9001286953594833846
+      lbl_Castelo Arruinado_7: -5451492741234205561
+      lbl_Castelo Arruinado_8: -1565991930228985524
+      lbl_Castelo Arruinado_9: 8692420357376715196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

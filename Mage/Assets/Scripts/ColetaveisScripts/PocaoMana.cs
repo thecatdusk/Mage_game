@@ -17,6 +17,7 @@ public class PocaoMana : MonoBehaviour
 
     private void OnTriggerEnter(Collider player)
     {
+        
         if (player.CompareTag("Player"))
         {
             player.GetComponent<Player>().RecuperarMana(mana);

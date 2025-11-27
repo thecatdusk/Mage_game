@@ -12,7 +12,7 @@ public class EsqueletoArqueiro : MonoBehaviour
     private float vidaAtual;
 
     // Variáveis de Ataque
-    public float ataqueDelay = 2f;
+    public float ataqueDelay = 2.302f;
     private float ataqueTimer = 0f;
     public float distanciaAtaque = 30f;
 
@@ -21,7 +21,7 @@ public class EsqueletoArqueiro : MonoBehaviour
     private float feridoTimer = 0f;
 
     // Variáveis de Morrendo
-    public float morrendoDelay = 0.3f;
+    public float morrendoDelay = 4f;
     private float morrendoTimer = 0f;
 
     // Variável de Status
@@ -42,6 +42,8 @@ public class EsqueletoArqueiro : MonoBehaviour
     // Variáveis da Flecha
     public GameObject flecha;
     public Transform miraArqueiro;
+
+    public CapsuleCollider colisor;
 
     public Animator animator;
 
@@ -153,6 +155,7 @@ public class EsqueletoArqueiro : MonoBehaviour
             }
             else
             {
+                
                 GameObject flechaInstanciado = Instantiate(flecha, miraArqueiro.position, miraArqueiro.rotation);
 
                 if (distanciaJogador < distanciaAtaque)
@@ -231,6 +234,7 @@ public class EsqueletoArqueiro : MonoBehaviour
     // Método que define o comportamento do inimigo caso o estado dele seja "Morrendo"
     void Morrendo()
     {
+        Destroy(colisor);
         animator.SetBool("Idle", false);
         animator.SetBool("Atacando", false);
         animator.SetBool("Morrendo", true);

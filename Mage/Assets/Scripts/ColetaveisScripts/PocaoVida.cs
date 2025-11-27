@@ -4,7 +4,7 @@ public class PocaoVida : MonoBehaviour
 {
     // Variável da recuperação de vida
     public float vida = 2f;
-
+    
     void Start()
     {
         
@@ -12,7 +12,8 @@ public class PocaoVida : MonoBehaviour
 
     void Update()
     {
-        
+     
+
     }
 
     private void OnTriggerEnter(Collider player)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class DisparoArcano : MonoBehaviour
 {
@@ -6,6 +7,8 @@ public class DisparoArcano : MonoBehaviour
     public float dano = 5;
     public float velocidade = 50f;
     public Transform posicao;
+    public GameObject tocadorDeSom;
+    public AudioResource somArcano;
 
     // Variáveis de auto destruição
     public float timerDestruicao = 3f;
@@ -40,6 +43,8 @@ public class DisparoArcano : MonoBehaviour
 
     private void OnTriggerEnter(Collider hit)
     {
+        GameObject tocadorDeSomInstanciada = Instantiate(tocadorDeSom, posicao.position, posicao.rotation);
+        tocadorDeSomInstanciada.GetComponent<EfeitosSonoros>().TocarSom(somArcano);
         if (hit.CompareTag("Esqueleto Guerreiro"))
         {
             hit.GetComponent<EsqueletoGuerreiro>().TomarHit(dano);

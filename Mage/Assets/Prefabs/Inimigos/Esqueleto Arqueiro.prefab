@@ -127,8 +127,8 @@ Rigidbody:
   m_GameObject: {fileID: 5262975743674987685}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_LinearDamping: 2
+  m_AngularDamping: 0.1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -189,8 +189,9 @@ MonoBehaviour:
   pocaoVida: {fileID: 2480512191514324769, guid: e62698709fcbc0b4fa577d8a016edf2e, type: 3}
   pocaoMana: {fileID: 381461830457962942, guid: 5667f7a49e92a3647a5dffc8f53acaba, type: 3}
   chanceDrop: 10
-  flecha: {fileID: 3605223440740950352, guid: c22240049183130418b65268ee6cdc2c, type: 3}
+  flecha: {fileID: 8988491313007101180, guid: bba248f561fc6c743bc8cf64bcb917bd, type: 3}
   miraArqueiro: {fileID: 897098663810251506}
+  colisor: {fileID: 5621900312315953123}
   animator: {fileID: 4150199221759034414}
   sala: {fileID: 0}
 --- !u!1 &8046306522277010424
@@ -272,6 +273,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3407177811229003836, guid: d54ed24e20f88494eaff0937b8dc5149, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0c0bac13326d14a8fb5fda102ea2f7, type: 2}
     - target: {fileID: 919132149155446097, guid: d54ed24e20f88494eaff0937b8dc5149, type: 3}
       propertyPath: m_Name
       value: MagoIdle
@@ -302,7 +307,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 99fb50da9755aa44a92e76ae9d1ad1eb, type: 2}
-  m_CullingMode: 0
+  m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
